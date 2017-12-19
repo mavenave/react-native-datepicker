@@ -367,7 +367,7 @@ class DatePicker extends Component {
     return (
       <TouchableComponent
         accessibilityLabel="chat__datepicker"
-        style={[Style.dateTouch, style]}
+        style={[Style.dateTouch, style, customStyles.dateTouch]}
         underlayColor={"transparent"}
         onPress={this.onPressDate}
         testID={testID}
